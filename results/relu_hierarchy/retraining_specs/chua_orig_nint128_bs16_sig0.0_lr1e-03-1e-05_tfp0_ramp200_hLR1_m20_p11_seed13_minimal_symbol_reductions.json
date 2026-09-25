@@ -1,0 +1,172 @@
+{
+  "source_model_path": "models\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p11_seed13.pth",
+  "M": 20,
+  "P_original": 11,
+  "selection_rule": "minimum_num_clusters",
+  "minimal_num_clusters": 7,
+  "num_candidates": 6,
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "remaining_relu_local_indices": [
+        3,
+        6,
+        7,
+        10
+      ],
+      "num_deleted": 7,
+      "P_effective": 4,
+      "num_clusters": 7,
+      "edge_types": 13,
+      "weighted_edges_total": 248,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 7,
+      "cycle_penalty_ge3": 7,
+      "is_leaf": true
+    },
+    {
+      "candidate_id": 1,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "remaining_relu_local_indices": [
+        3,
+        4,
+        6
+      ],
+      "num_deleted": 8,
+      "P_effective": 3,
+      "num_clusters": 7,
+      "edge_types": 13,
+      "weighted_edges_total": 312,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 7,
+      "cycle_penalty_ge3": 7,
+      "is_leaf": true
+    },
+    {
+      "candidate_id": 2,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "remaining_relu_local_indices": [
+        1,
+        6,
+        7,
+        10
+      ],
+      "num_deleted": 7,
+      "P_effective": 4,
+      "num_clusters": 7,
+      "edge_types": 13,
+      "weighted_edges_total": 169,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 7,
+      "cycle_penalty_ge3": 7,
+      "is_leaf": true
+    },
+    {
+      "candidate_id": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "remaining_relu_local_indices": [
+        1,
+        4,
+        6
+      ],
+      "num_deleted": 8,
+      "P_effective": 3,
+      "num_clusters": 7,
+      "edge_types": 13,
+      "weighted_edges_total": 233,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 7,
+      "cycle_penalty_ge3": 7,
+      "is_leaf": true
+    },
+    {
+      "candidate_id": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "remaining_relu_local_indices": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "num_deleted": 7,
+      "P_effective": 4,
+      "num_clusters": 7,
+      "edge_types": 13,
+      "weighted_edges_total": 242,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 7,
+      "cycle_penalty_ge3": 7,
+      "is_leaf": true
+    },
+    {
+      "candidate_id": 5,
+      "deleted_relu_local_indices": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ],
+      "remaining_relu_local_indices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "num_deleted": 7,
+      "P_effective": 4,
+      "num_clusters": 7,
+      "edge_types": 13,
+      "weighted_edges_total": 163,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 7,
+      "cycle_penalty_ge3": 7,
+      "is_leaf": true
+    }
+  ]
+}

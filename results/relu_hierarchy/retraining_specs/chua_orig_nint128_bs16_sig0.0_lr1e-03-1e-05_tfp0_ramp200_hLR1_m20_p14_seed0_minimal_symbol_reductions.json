@@ -1,0 +1,70 @@
+{
+  "source_model_path": "models\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p14_seed0.pth",
+  "M": 20,
+  "P_original": 14,
+  "selection_rule": "minimum_num_clusters",
+  "minimal_num_clusters": 5,
+  "num_candidates": 2,
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "remaining_relu_local_indices": [
+        1,
+        2,
+        13
+      ],
+      "num_deleted": 11,
+      "P_effective": 3,
+      "num_clusters": 5,
+      "edge_types": 8,
+      "weighted_edges_total": 188,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 5,
+      "cycle_penalty_ge3": 5,
+      "is_leaf": true
+    },
+    {
+      "candidate_id": 1,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "remaining_relu_local_indices": [
+        1,
+        2,
+        6
+      ],
+      "num_deleted": 11,
+      "P_effective": 3,
+      "num_clusters": 5,
+      "edge_types": 8,
+      "weighted_edges_total": 120,
+      "num_scc_ge3": 1,
+      "largest_scc_size": 5,
+      "cycle_penalty_ge3": 5,
+      "is_leaf": true
+    }
+  ]
+}

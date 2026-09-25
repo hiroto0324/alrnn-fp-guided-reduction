@@ -1,0 +1,3125 @@
+{
+  "condition": "original",
+  "n_interleave": 128,
+  "P_original": 10,
+  "target_fp_count": 5,
+  "global_min_num_clusters": 5,
+  "target_p_effective": "all",
+  "num_eligible_sources": 30,
+  "ineligible_sources": [],
+  "fp_deficient_sources": [],
+  "num_all_candidates": 154,
+  "num_global_min_candidates": 141,
+  "num_selected_candidates": 141,
+  "counts_by_p_effective": {
+    "3": 126,
+    "4": 15
+  },
+  "excluded_by_num_clusters": {
+    "6": 13
+  },
+  "selected_candidates": [
+    {
+      "source_seed": 0,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed0_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 2,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        3
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed2_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 3,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "retained_relu_local_indices": [
+        6,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed3_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 3,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        5,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed3_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 3,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed3_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 3,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        5,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed3_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 4,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "retained_relu_local_indices": [
+        6,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed4_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 4,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        5
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed4_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 4,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed4_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 4,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed4_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        0,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 8,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 9,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 10,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 6,
+      "candidate_id": 11,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed6_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 7,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed7_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 7,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed7_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 7,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed7_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 7,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        2,
+        3
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed7_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 8,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed8_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 8,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        5
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed8_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 9,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        4,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed9_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 9,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        4,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed9_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 9,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed9_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 9,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed9_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "retained_relu_local_indices": [
+        3,
+        8,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        3,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        3,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        3,
+        5,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "retained_relu_local_indices": [
+        2,
+        8,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 8,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        5,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 9,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 10,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 10,
+      "candidate_id": 11,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        2,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed10_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        3
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        2,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 11,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        2
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed11_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        4,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        3,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 13,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed13_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 14,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed14_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 14,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed14_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 14,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed14_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 14,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed14_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 14,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        3,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed14_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        3,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 15,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        4
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed15_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 16,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "retained_relu_local_indices": [
+        6,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed16_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 16,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        5,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed16_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 17,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        5,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed17_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 17,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        5,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed17_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 17,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        1,
+        5,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed17_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 17,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed17_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 17,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed17_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 17,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed17_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "retained_relu_local_indices": [
+        6,
+        8,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "retained_relu_local_indices": [
+        6,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "retained_relu_local_indices": [
+        5,
+        8,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        9
+      ],
+      "retained_relu_local_indices": [
+        5,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        5,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 18,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        5,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed18_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 20,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        4,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed20_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 20,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed20_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 20,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed20_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 21,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "retained_relu_local_indices": [
+        2,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed21_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 21,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed21_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 21,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        5,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed21_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 21,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        2,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed21_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        1,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "retained_relu_local_indices": [
+        0,
+        6,
+        8,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        5,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 22,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 4,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        4,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed22_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 23,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        5,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed23_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 23,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed23_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 23,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed23_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        5,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 24,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        4,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed24_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "retained_relu_local_indices": [
+        6,
+        7,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        5,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        3,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 25,
+      "candidate_id": 8,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed25_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        6,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        5,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 3,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        2,
+        3,
+        5
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 4,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 5,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        1,
+        5,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 6,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        3,
+        6
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 7,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        2,
+        3
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 26,
+      "candidate_id": 8,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed26_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 27,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "retained_relu_local_indices": [
+        0,
+        8,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed27_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 27,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        6,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed27_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 27,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "retained_relu_local_indices": [
+        0,
+        1,
+        9
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed27_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 28,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        7,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed28_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 28,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        5,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed28_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 28,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        9
+      ],
+      "retained_relu_local_indices": [
+        3,
+        4,
+        8
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed28_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 29,
+      "candidate_id": 0,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        6,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed29_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 29,
+      "candidate_id": 1,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        4,
+        5,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed29_minimal_symbol_reductions.json"
+    },
+    {
+      "source_seed": 29,
+      "candidate_id": 2,
+      "num_clusters": 5,
+      "P_original": 10,
+      "P_effective": 3,
+      "deleted_relu_local_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "retained_relu_local_indices": [
+        0,
+        4,
+        7
+      ],
+      "spec_path": "results\\relu_hierarchy\\retraining_specs\\chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05_tfp0_ramp200_hLR1_m20_p10_seed29_minimal_symbol_reductions.json"
+    }
+  ]
+}
