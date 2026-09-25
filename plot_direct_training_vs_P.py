@@ -42,7 +42,7 @@ TAG_TEMPLATE = ("chua_orig_nint128_bs16_sig0.0_lr1e-03-1e-05"
 P_VALUES = list(range(1, 11))     # P = 1 .. 10 (3 = theoretical lower bound)
 SEEDS    = list(range(30))
 
-# Checkpoint-selection score (must match 2_train_test_aug_only.py)
+# Checkpoint-selection score (must match train_alrnn.py)
 TARGET_FP_COUNT = 5
 FP_COUNT_WEIGHT = 5.0
 

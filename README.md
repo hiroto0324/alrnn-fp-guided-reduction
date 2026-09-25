@@ -9,7 +9,7 @@ also included for end-to-end reproduction.
 ## Layout
 
 - `tutorial.py` — AL-RNN model and free-run rollout
-- `2_train_test_aug_only.py` — training engine (direct training and
+- `train_alrnn.py` — training engine (direct training and
   reduction-guided retraining; teacher cache, parent-state
   synchronization, fixed/auto auxiliary weighting)
 - `graph_reduction_with_relu_pruning.py` — fixed-point-preserving

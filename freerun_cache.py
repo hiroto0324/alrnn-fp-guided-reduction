@@ -14,7 +14,7 @@ quantity is stored with it:
   n_posttransient_symbols    unique retained-bit patterns after `cut`
   fp_region_bits / fp_type / fp_visited / fp_position_z   all real FPs
 
-Conventions are IDENTICAL to evaluate_model_quick in 2_train_test_aug_only:
+Conventions are IDENTICAL to evaluate_model_quick in train_alrnn:
   z0 = raw[0] @ B (predict_free_sequence init), rollout `steps` steps,
   Dstsp = state_space_divergence_binning(readout, full raw data),
   DH    = power_spectrum_error(readout, raw[:steps]),
@@ -45,7 +45,7 @@ def _training_module():
     if _ta is None:
         import importlib.util, io, contextlib
         spec = importlib.util.spec_from_file_location(
-            "_freerun_ta", "2_train_test_aug_only.py")
+            "_freerun_ta", "train_alrnn.py")
         mod = importlib.util.module_from_spec(spec)
         with contextlib.redirect_stdout(io.StringIO()):
             spec.loader.exec_module(mod)

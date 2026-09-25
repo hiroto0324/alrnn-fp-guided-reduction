@@ -25,9 +25,9 @@ Outputs:
   results/aug_only/summary.csv
 
 Usage:
-  python 2_train_test_aug_only.py --P 3
-  python 2_train_test_aug_only.py --P_list 3 4 5 --r_anchor 0.1 --r_local 0.3 --r_bridge 0.3 --r_long 0.3
-  python 2_train_test_aug_only.py --P 3 --lr_fixed --no_periodic_eval
+  python train_alrnn.py --P 3
+  python train_alrnn.py --P_list 3 4 5 --r_anchor 0.1 --r_local 0.3 --r_bridge 0.3 --r_long 0.3
+  python train_alrnn.py --P 3 --lr_fixed --no_periodic_eval
 """
 
 import argparse

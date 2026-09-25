@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Launcher for 2_train_test_aug_only.py — data mode & ratio sweep.
+Launcher for train_alrnn.py — data mode & ratio sweep.
 
 DATA_MODE = "original"   -> train on the raw Chua time series (uses RAW_DATA_PATH)
 DATA_MODE = "augmented"  -> train on each RATIO_GRID condition (bridge/long episodes)
@@ -24,7 +24,7 @@ from pathlib import Path
 # User-editable settings
 # ============================================================
 
-TRAIN_SCRIPT = "2_train_test_aug_only.py"
+TRAIN_SCRIPT = "train_alrnn.py"
 
 # ── Data mode ──────────────────────────────────────────────
 # "original"  : train on the raw Chua time series (uses RAW_DATA_PATH)
@@ -186,7 +186,7 @@ DISTILL_GRAD_EPS           = 1e-12
 
 def distill_autolambda_tag() -> str:
     """tag suffix of auto-lambda runs (e.g. '_ga0p1'); '' for manual runs.
-    Must match the function of the same name in 2_train_test_aug_only.py."""
+    Must match the function of the same name in train_alrnn.py."""
     if not DISTILL_AUTO_LAMBDA or DISTILL_MODE == 'none':
         return ''
     return '_ga' + f"{DISTILL_GRAD_RATIO_ALPHA:g}".replace('.', 'p').replace('-', 'm')
@@ -199,7 +199,7 @@ TEACHER_CACHE_DIR           = Path("results/teacher_cache")
 FORCE_REBUILD_TEACHER_CACHE = False   # debug only (applies to the pre-build phase)
 
 # mode -> checkpoint/log name suffix (must match DISTILL_TAGS in
-# 2_train_test_aug_only.py; 'none' is empty = legacy naming)
+# train_alrnn.py; 'none' is empty = legacy naming)
 DISTILL_TAGS = {
     'none':                    '',
     'full_preactivation':      '_distfullpre',
@@ -268,7 +268,7 @@ def is_successful_log(log_path: Path) -> bool:
 
 
 def make_model_tag(ratio_cfg: dict, n_interleave: int, p: int, seed: int) -> str:
-    """Must match the tag-generation logic of 2_train_test_aug_only.py."""
+    """Must match the tag-generation logic of train_alrnn.py."""
     if DATA_MODE == "original":
         return (f"chua_orig_nint{n_interleave}_bs{BATCH_EPISODES}"
                 f"_sig{INPUT_SIGMA}_lr{LR_START:.0e}-{LR_END:.0e}"
@@ -316,7 +316,7 @@ def resolve_reduction_inputs(tag: str) -> tuple[Path, Path, dict]:
 
 def retrained_model_path(tag: str, spec: dict, candidate: dict,
                          retrain_seed: int) -> Path:
-    """Save path of the retrained reduced model (matches 2_train_test_aug_only.py naming).
+    """Save path of the retrained reduced model (matches train_alrnn.py naming).
 
     Including minimal_num_clusters / candidate_id / P_effective / retraining
     seed in the filename keeps multiple candidates x multiple retraining

@@ -3,7 +3,7 @@
 """Generic direct / parent training launcher for the benchmark systems
 (rossler, lorenz63) — Chua protocol transferred verbatim.
 
-Runs 2_train_test_aug_only.py in data_mode=original with the exact Chua
+Runs train_alrnn.py in data_mode=original with the exact Chua
 Direct settings (nint=128 raw-data readout TF, bs16, lr 1e-3→1e-5,
 2000x50, segment 200) and the system's tag_prefix / fp_delta_t /
 target_fp_count from system_config. Skip-completed via the model tag
@@ -29,7 +29,7 @@ from pathlib import Path
 
 import system_config as sc
 
-TRAIN_SCRIPT = "2_train_test_aug_only.py"
+TRAIN_SCRIPT = "train_alrnn.py"
 LOG_DIR = Path("logs/benchmark")
 
 # Chua direct protocol (identical values to run_aug_only_ratio_sweep_original)
@@ -42,7 +42,7 @@ FP_COUNT_WEIGHT = 5.0
 
 
 def make_tag(cfg, p, seed, n_interleave=N_INTERLEAVE):
-    """Must match the tag generation in 2_train_test_aug_only.py."""
+    """Must match the tag generation in train_alrnn.py."""
     return (f"{cfg['tag_prefix']}_orig_nint{n_interleave}"
             f"_bs{BATCH_EPISODES}_sig{INPUT_SIGMA}"
             f"_lr{LR_START:.0e}-{LR_END:.0e}"
